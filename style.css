@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #112b3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-game-container {
+  background-color: #205375;
+  width: 80%;
+  height: 80vh;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-style: groove;
+  border-color: #d0c9c0;
+  max-width: 1000px;
+}
+
+.section-1 {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  height: 10%;
+  font-size: 2rem;
+  border-bottom: 3px solid #f66b0e;
+}
+
+.winner-log {
+  text-align: center;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.section-2 h4 {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-container button {
+  border-radius: 15rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #f66b0e;
+  width: 30%;
+}
+
+.btn-container p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-container img {
+  width: 50%;
+  border-radius: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn-container img:hover {
+  transform: scale(1.1);
+  transition: all 100ms ease-in-out;
+  opacity: 1;
+}
+
+.section-4 {
+  background-color: #efefef;
+  height: 15%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  justify-content: center;
+}
+
+.section-5 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 5%;
+}
+
+.player-log h3 {
+  margin-right: 2rem;
+}
+
+.computer-log h3 {
+  margin-left: 2rem;
+}
+
+.reset-game-container button {
+  width: 100px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.reset-game-container button:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+
+.results-selection {
+  opacity: 0.5;
+  font-size: 2rem;
+}
+
+.results-selection-winner {
+  opacity: 1;
+  font-size: 3rem;
+}

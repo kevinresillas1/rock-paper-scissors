@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock-Paper-Scissors</title>
+  </head>
+  <body>
+    <div class="main-game-container">
+      <div class="section-1">
+        <h1>Rock Paper Scissors</h1>
+      </div>
+      <div class="section-2">
+        <div class="score-tracker"><h4>Score: 0-0</h4></div>
+        <div class="winner-log">
+          <h6>Choose hand to start game!</h6>
+        </div>
+        <div class="round-tracker"><h4>Round: 1</h4></div>
+      </div>
+      <div class="section-3">
+        <div class="btn-container">
+          <button>
+            <img src="/img/paper.jpg" data-selection="paper" />
+            <p>Paper</p>
+          </button>
+
+          <button>
+            <img src="/img/rock.jpg" data-selection="rock" />
+            <p>Rock</p>
+          </button>
+          <button>
+            <img src="/img/scissors.jpg" data-selection="scissors" />
+            <p>Scissors</p>
+          </button>
+        </div>
+      </div>
+      <div class="section-4">
+        <div class="player-log"><h3>Player Log:</h3></div>
+        <div class="computer-log" data-final-colum>
+          Computer Log:
+        </div>
+        <!-- <div class="results-selection-winner">✊</div>
+        <div class="results-selection">🤚</div>
+      </div> -->
+      <div class="section-5">
+        <div class="reset-game-container">
+          <button>Reset Game</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
