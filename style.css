@@ -45,14 +45,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10%;
+  height: 15%;
   font-size: 3rem;
   text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.score-tracker {
+  display: flex;
+  flex-direction: column;
+}
+
+.round-tracker {
+  display: flex;
+  flex-direction: column;
 }
 
 .section-2 h4 {
-  margin-left: 7rem;
-  margin-right: 7rem;
 }
 
 .section-3 {
@@ -138,7 +148,7 @@ body {
 
 .results-selection {
   opacity: 0.5;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .results-selection-winner {
