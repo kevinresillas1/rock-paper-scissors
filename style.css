@@ -9,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #d0c9c0;
 }
 
 .main-game-container {
@@ -52,6 +53,11 @@ body {
   margin-right: 2rem;
 }
 
+.results {
+  display: flex;
+  justify-content: center;
+}
+
 .score-tracker {
   display: flex;
   flex-direction: column;
@@ -60,9 +66,6 @@ body {
 .round-tracker {
   display: flex;
   flex-direction: column;
-}
-
-.section-2 h4 {
 }
 
 .section-3 {
@@ -110,7 +113,6 @@ body {
 }
 
 .section-4 {
-  background-color: #efefef;
   height: 15%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -151,7 +153,7 @@ body {
   font-size: 1.5rem;
 }
 
-.results-selection-winner {
+.results-selection.winner {
   opacity: 1;
   font-size: 3rem;
 }

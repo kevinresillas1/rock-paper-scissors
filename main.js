@@ -1,5 +1,9 @@
 const selectionBtns = document.querySelectorAll("[data-selection]");
 const finalColumn = document.querySelector("[data-final-column]");
+const userScore = document.querySelector(".user-score");
+const compScore = document.querySelector(".comp-score");
+const resetBtn = document.querySelector(".reset-btn");
+
 const SELECTIONS = [
   {
     name: "rock",
@@ -52,3 +56,7 @@ function addSelectionResult(selection, winner) {
   if (winner) div.classList.add("winner");
   finalColumn.after(div);
 }
+
+resetBtn.addEventListener("click", () => {
+  console.log("restart");
+});
